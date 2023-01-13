@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="./Css/style.css">
+
+</head>
+
+<body>
+    <H1>Kalkulator Sistem Antrian M/M/S</H1>
+    <div class="container">
+        <div class="header">MASUKAN DATA DIKETAHUI</div>
+        <form id="question">
+            <div class="input">
+                <input type="number" id="inputLambda" placeholder="masukan tingkat kedatangan (lambda)">
+            </div>
+            <div class="input">   
+                <input type="number" id="inputMicro" placeholder="masukan tingkat pelayanan (micro)">
+            </div>
+            <div class="input">
+                <input type="number" id="inputServer" placeholder="masukan jumlah pelayanan (s)">
+            </div>
+            <button type="submit" id="submitButton">submit</button>
+        </form>
+        <div class="hasil">
+            <h2>Hasil</h2>
+            <div class="input">
+                <label>P0 = </label>
+                <input type="number" id="P0">
+            </div>
+            <div class="input">
+                <label>Wq = </label>
+                <input type="number" id="Wq">
+            </div>
+            <div class="input">
+                <label>W = </label>
+                <input type="number" id="W">
+            </div>
+            <div class="input">
+                <label>L = </label>
+                <input type="number" id="L">
+            </div>
+            <div class="input">
+                <label>Lq = </label>
+                <input type="number" id="Lq">
+            </div>
+            <div class="input">
+                <label>Ro = </label>
+                <input type="number" id="Ro">
+            </div>
+            <div class="input">
+                <label>Pq = </label>
+                <input type="number" id="Pq">
+            </div>
+        </div>
+    </div>
+    <script src="./Js/script.js" type="module"></script>
+</body>
+
+
+</html>
